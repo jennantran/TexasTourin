@@ -5,7 +5,7 @@ class HomePage extends Component{
     render(){
         return(
            <div>
-               <section>
+               <section className='homePage'>
                     <h1>Texas Tourin</h1>
                </section>
            </div>
