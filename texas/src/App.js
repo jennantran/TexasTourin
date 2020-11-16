@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
+import React from 'react';
 import HomePage from './HomePage/HomePage';
-import Nav from './Nav/Nav';
 
-class  App extends Component {
-  constructor(){
+
+class App extends React.Component {
+  render() {
     return (
-      <div className='App'>
-          <nav><Nav/></nav>
-          <Route exact path='/' component={HomePage}/>
+      <div>
+        <HomePage></HomePage>
       </div>
-    );
+    )
   }
 }
+
 export default App;
