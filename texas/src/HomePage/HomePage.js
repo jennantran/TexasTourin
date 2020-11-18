@@ -6,7 +6,7 @@ class HomePage extends Component{
         return(
            <div>
                <section className='homePage'>
-                    <h1>Texas Tourin</h1>
+                    <h1 className='texasTitle'>Texas Tourin</h1>
                </section>
            </div>
         );
