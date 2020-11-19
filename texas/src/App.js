@@ -1,6 +1,7 @@
 import React from 'react';
 import HomePage from './HomePage/HomePage';
 import Nav from './Nav/Nav';
+import { Route } from 'react-router-dom';
 
 
 class App extends React.Component {
@@ -8,7 +9,7 @@ class App extends React.Component {
     return (
       <div>
         <Nav/>
-        <HomePage/>
+        <Route exact path = '/' component={HomePage}/>
       </div>
     )
   }
