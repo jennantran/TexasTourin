@@ -36,13 +36,50 @@ function Nav(){
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>
 
-                    <li
-                        className='nav-item'
-                        onMouseEnter={onMouseEnter}
-                        onMouseLeave={onMouseLeave}
-                        
-                        />
-
+                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <li className='nav-item'>
+            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              Home
+            </Link>
+          </li>
+     
+          <li className='nav-item'>
+            <Link
+              to='/austin'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Austin
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/dallas'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Dallas
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/contact-us'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Contact Us
+            </Link>
+          </li>
+          <li>
+            <Link
+              to='/sign-up'
+              className='nav-links-mobile'
+              onClick={closeMobileMenu}
+            >
+              Sign Up
+            </Link>
+          </li>
+        </ul>
             </nav>
     );
   }
