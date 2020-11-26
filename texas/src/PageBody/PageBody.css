@@ -1,0 +1,29 @@
+.PageBody {
+    background-color: beige;
+}
+
+#header {
+    text-align: center;
+}
+
+.articles {
+    text-align: center;
+}
+
+.article {
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    margin : 40px 15px;
+    padding: 10px;
+}
+
+.article:hover {
+    background-color: rgba(67, 67, 214, 0.726);
+    color: white;
+}
+
+#ar1 {
+    align-self: right;
+}
