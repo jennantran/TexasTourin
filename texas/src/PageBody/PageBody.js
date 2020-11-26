@@ -8,7 +8,6 @@ class PageBody extends Component {
             <div>
                 <section className="PageBody">
                     <div className = "articles">
-                        <h2 id = "header">Articles</h2>
                         <div className = "article" id = "ar1">
                             <p>Houston</p>
                         </div>

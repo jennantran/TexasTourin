@@ -1,9 +1,7 @@
-.PageBody {
-    background-color: beige;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-#header {
-    text-align: center;
+.PageBody {
+    background-color: white;
 }
 
 .articles {
@@ -11,16 +9,17 @@
 }
 
 .article {
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 350px;
     border: 2px solid black;
     display: inline-block;
-    margin : 40px 15px;
+    margin : 40px 35px;
     padding: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .article:hover {
-    background-color: rgba(67, 67, 214, 0.726);
+    background-color: rgba(0, 0, 255, 0.726);
     color: white;
 }
 
