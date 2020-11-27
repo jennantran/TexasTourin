@@ -4,6 +4,7 @@ import Footer from './Footer/Footer'
 import Nav from './Nav/Nav';
 import { Route } from 'react-router-dom';
 import PageBody from './PageBody/PageBody';
+import Austin from './Austin/Austin';
 
 
 class App extends React.Component {
@@ -12,6 +13,7 @@ class App extends React.Component {
       <div>
         <Nav/>
         <Route exact path = '/' component={HomePage}/>
+        <Route path = '/Austin' component={Austin}/>
         <PageBody></PageBody>
         <Footer/>
       </div>
