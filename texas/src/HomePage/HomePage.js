@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PageBody from '../PageBody/PageBody';
 import './HomePage.css';
 
 class HomePage extends Component{
@@ -8,6 +9,7 @@ class HomePage extends Component{
                <section className='homePage'>
                     <h1 className='texasTitle'>Texas Tourin</h1>
                </section>
+               <PageBody></PageBody>
            </div>
         );
     }
