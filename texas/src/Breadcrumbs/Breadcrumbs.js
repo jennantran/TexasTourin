@@ -35,11 +35,10 @@ const Breadcrumbs = props => {
   const pathnames = pathname.split("/").filter(x => x);
   const classes = useStyles();
   return (
-    //<div className={classes.root}>
+  
     <TTBreadcrumbs className={classes.link} separator={<NavigateNextIcon fontSize="small" />} aria-label="breadcrumb">
       {pathnames.length > 0 ? (
         <Link className={classes.link} onClick={() => history.push("/")}> <HomeIcon className={classes.icon}  /> Home</Link>
-   
       ) : (
         <Typography className={classes.link}> </Typography>
       )}
@@ -55,7 +54,6 @@ const Breadcrumbs = props => {
         );
       })}
     </TTBreadcrumbs>
-   // </div>
   );
 };
 
