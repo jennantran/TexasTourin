@@ -6,9 +6,12 @@ import './Austin.css';
 class Austin extends Component{
     render(){
         return(
-            <section>
-                <CityPage></CityPage>
+            <div>
+            <section className='austinPage'>
             </section>
+            <CityPage></CityPage>
+            </div>
+
         )
     }
 }
