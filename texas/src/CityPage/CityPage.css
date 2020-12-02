@@ -4,12 +4,35 @@
     flex-direction: column;
     text-align: center;
 }
-
-.cityArticle{
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+/* 
+.cityPic{
+    width: 300px;
     height: 400px;
     margin-top: 40px;
+    margin-left: 50px;
     background-color: orange;
+} */
+
+
+.cityArticle{
+    width: 1000px;
+    height: 400px;
+    margin-top:30px;
+    border-bottom: 1px solid grey;
+}
+.description{
+    width: 700px;
+    margin-top: 60px;
+    font-family: 'Poppins';
+}
+img{
+    display: block;
+    width: 300px;
+    padding: 10px;
+    margin-left: 50px;
+    float: left;
+}
+
+.articleTitle{
+    padding: 20px;
 }
