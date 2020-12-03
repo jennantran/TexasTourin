@@ -1,6 +1,4 @@
 .cityArticles{
-    padding-top: 5em;
-    padding-bottom: 5em;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -17,16 +15,17 @@
 
 
 .cityArticle{
-    width: 1000px;
+    width: 700px;
     height: 400px;
     margin-top:30px;
-    border-bottom: 1px solid grey;
+    border-bottom-style: ridge;
 }
 .description{
     width: 700px;
     margin-top: 60px;
     font-family: 'Poppins';
 }
+
 img{
     display: block;
     width: 300px;
