@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import CityPage from '../CityPage/CityPage';
-import './Austin.css';
+import './Dallas.css';
 
 
-class Austin extends Component{
+class Dallas extends Component{
     render(){
         return(
             <div>
-            <section className='austinPage'>
+            <section className='dallasPage'>
             </section>
             <CityPage></CityPage>
             </div>
@@ -16,4 +16,4 @@ class Austin extends Component{
     }
 }
 
-export default Austin;
+export default Dallas;
