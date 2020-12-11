@@ -20,11 +20,22 @@ class FetchJson extends Component {
 
   render() {
     return (
-      <div>
+      <div className='FetchJson'>
         {this.state.blogs.map(item => (
           <div key={item.id}>
             <h1>{item.title}</h1>
+            <br />
+            <section>
+            <ul class="blogIdentifiers">
+            <li>{item.city}</li>
+            <li>{item.category}</li>
+            </ul>
+            </section>
+            <br />
             <span>{item.description}</span>
+            <br />
+            <br />
+            <hr></hr>
           </div>
         ))}
       </div>

@@ -16,7 +16,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: '#141627',
     color: 'white',
     display: 'flex',
-    textTransform: 'capitalize'
+    textTransform: 'capitalize',
+    cursor: 'pointer'
   },
   icon: {
     paddingTop: 5,
