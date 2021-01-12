@@ -25,7 +25,8 @@
   text-align: center;
   padding: 30px;
   width: 100%;
-  display: block;
+  display: block;  
+  font-family: 'Poppins';
 }
 .nav-links:hover {
   background-color:	#49a97b;

@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 import {data} from "./AustinData";
 import CategoryList from "./CategoryList";
 import "./Austin.css";
+=======
+import CityPage from '../CityPage/CityPage';
+import './Austin.css';
+>>>>>>> 5773eb42d4e61e43fd7097242eeb3bf7ace8c0b6
 
 class Austin extends Component {
 
+<<<<<<< HEAD
     state = {
         categories: data,
         categoriesCopy: data,
@@ -35,6 +41,18 @@ class Austin extends Component {
                 <CategoryList categories = {this.state.categoriesCopy} handleBtns={this.handleBtns} btns = {this.state.btns}/>
             </div>
         );
+=======
+class Austin extends Component{
+    render(){
+        return(
+            <div>
+            <section className='austinPage'>
+            </section>
+            <CityPage></CityPage>
+            </div>
+
+        )
+>>>>>>> 5773eb42d4e61e43fd7097242eeb3bf7ace8c0b6
     }
 }
 
