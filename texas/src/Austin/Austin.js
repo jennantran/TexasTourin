@@ -36,6 +36,6 @@ class Austin extends Component {
                 <CityPage></CityPage>
             </section>     
         );
-
-
+    }
+}
 export default Austin;
