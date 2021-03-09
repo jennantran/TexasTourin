@@ -1,17 +1,26 @@
 import React, { Component } from 'react';
-import {data} from "./AustinData";
 import CategoryList from "./CategoryList";
 import "./Austin.css";
+import CityPage from '../CityPage/CityPage';
 
 class Austin extends Component {
-
     state = {
-        categories: data,
-        categoriesCopy: data,
-        btns: ['All', 'Shopping', 'Sight Seeing', 'Art', 'Food']
-    }
-
-
+        categories: [],
+        categoriesCopy: [],
+        btns: ['All', 'Austin', 'Dallas', 'Houston']
+      };
+    
+      async componentDidMount() {
+        try {
+          const res = await fetch('http://127.0.0.1:8000/api/blogs/?format=json'); // fetching the data from api, before the page loaded
+          const categories = await res.json();
+          this.setState({
+            categories
+          });
+        } catch (e) {
+          console.log(e);
+        }
+      }
     // Filter function
     handleBtns = (e) => {
         console.log(e.target.value);
@@ -21,7 +30,7 @@ class Austin extends Component {
             categoriesCopy = this.state.categories;
         }
         else {
-            categoriesCopy = this.state.categories.filter(item => item.cat === e.target.value);
+            categoriesCopy = this.state.categories.filter(item => item.city === e.target.value);
         }
 
         this.setState({
@@ -31,11 +40,11 @@ class Austin extends Component {
 
     render() {
         return (
-            <div>
+            <section className='austinPage'>
                 <CategoryList categories = {this.state.categoriesCopy} handleBtns={this.handleBtns} btns = {this.state.btns}/>
-            </div>
+                <CityPage></CityPage>
+            </section>     
         );
     }
 }
-
 export default Austin;
