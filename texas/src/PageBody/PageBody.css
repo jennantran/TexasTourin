@@ -9,20 +9,48 @@
 }
 
 .article {
+    position: relative;
     height: 250px;
     width: 350px;
-    border: 2px solid black;
     display: inline-block;
     margin : 40px 35px;
     padding: 10px;
     font-family: 'Poppins', sans-serif;
 }
 
-.article:hover {
-    background-color: rgba(0, 0, 255, 0.726);
-    color: white;
+.image {
+    display: block;
+    height: 250px;
+    width: 347px;
+    margin: -10px -9px;
 }
 
-#ar1 {
-    align-self: right;
+.overlay {
+    position: relative;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: rgba(0, 98, 255, 0.904);
+}
+
+.article:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.overlayLeft {
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
 }
