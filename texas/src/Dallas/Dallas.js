@@ -8,7 +8,7 @@ class Dallas extends Component{
     state = {
         categories: [],
         categoriesCopy: [],
-        btns: ['FOOD', 'DESSERT', 'FOOD', 'NIGHTLIFE']
+        btns: ['Food', 'Dessert', 'Events', 'Nightlife']
       };
 
       async componentDidMount() {
