@@ -35,12 +35,12 @@
   .texasMotto{
       color: white;
       width: 50%;
-      margin-top: 175px; 
-      margin-left: 8vh;
+      margin-top: 40px; 
       font-family: 'Amatic SC', cursive;
-      font-size: 34px;
+      font-size: 30px;
       text-shadow: white 0px 0px 10px;
-      transform: rotate(-90deg);
+      margin-left: 38%;
+      margin-top: 132px;
   }
 
 

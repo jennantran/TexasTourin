@@ -23,7 +23,12 @@ class Footer extends Component{
             </Link>
           <br />
           <br />
-            Contact Us
+          <Link
+              to='/contact-us'
+              className='contact'
+            >
+                Contact us
+            </Link>
           </section>
         </section>
         <section className="footer-info-right">
