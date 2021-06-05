@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 class Footer extends Component{
     render(){
@@ -14,7 +15,12 @@ class Footer extends Component{
         </section>
         <section className="footer-info-center">
           <section className="footer-info__contact">
-            Our Story
+          <Link
+              to='/ourStory'
+              className='ourStory'
+            >
+                Our Story
+            </Link>
           <br />
           <br />
             Contact Us

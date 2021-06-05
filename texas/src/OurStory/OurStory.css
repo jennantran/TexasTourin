@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+.OurStory{
+    background-image: url('../images/dallasSkyline.jpg');
+    height: 50vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+p.story{
+    width: 80%;
+    font-family: 'Poppins';
+    padding: 20px; 
+    margin-bottom: 20px;
+}
+
+.contact{
+    width: 200px;
+    height: 400px;
+}
+
+.contactUs{
+    width: 400px;
+    height: 200px;
+}
