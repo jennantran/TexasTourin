@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './OurStory.css';
 import About from '../About/About';
+import Contact from '../Contact/Contact';
 
 class OurStory extends Component { 
     render(){
@@ -8,17 +9,7 @@ class OurStory extends Component {
             <div>
                 <section className='OurStory'>
                 </section>    
-                <About></About>   
-                <section className='contact'>
-                   <form className='contactUs'>
-                        <label for='about'>What is this about?</label>
-                        <select id='topic' name='topic'>
-                            <option value='collab'>Collab with us</option>
-                            <option value='recs'>Recommendations for new spots to explore</option>
-                            <option value='other'>Other</option>
-                        </select>
-                   </form>
-               </section>
+                <About></About>  
             </div>
         );
     }

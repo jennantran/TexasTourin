@@ -40,10 +40,12 @@ class Austin extends Component {
 
     render() {
         return (
+          <section>
             <section className='austinPage'>
+            </section>  
                 <CategoryList categories = {this.state.categoriesCopy} handleBtns={this.handleBtns} btns = {this.state.btns}/>
                 <CityPage></CityPage>
-            </section>     
+            </section>   
         );
     }
 }
