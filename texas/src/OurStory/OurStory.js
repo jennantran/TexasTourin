@@ -1,19 +1,18 @@
 import React, {Component} from 'react';
 import './OurStory.css';
+import About from '../About/About';
+import Contact from '../Contact/Contact';
 
-class OurStory extends Component {
-    
+class OurStory extends Component { 
     render(){
         return (
             <div>
                 <section className='OurStory'>
-              
-                </section>
+                </section>    
+                <About></About>  
             </div>
         );
-
     }
-
 }
 
-export default 'OurStory';
+export default OurStory;

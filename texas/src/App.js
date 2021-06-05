@@ -7,11 +7,10 @@ import { Route } from 'react-router-dom';
 import Austin from './Austin/Austin';
 import Dallas from './Dallas/Dallas';
 import Houston from './Houston/Houston';
-import Breadcrumbs from './Breadcrumbs/Breadcrumbs'
-
+import Breadcrumbs from './Breadcrumbs/Breadcrumbs';
+import OurStory from './OurStory/OurStory';
 
 class App extends React.Component {
-
   render() {
     return (
       <div>
@@ -22,6 +21,7 @@ class App extends React.Component {
         <Route path = '/Dallas' component={Dallas}/>
         <Route path = '/Houston' component={Houston}/>
         <Route exact path = '/Contact-Us' component={FetchJson}/>
+        <Route path = '/OurStory' component={OurStory}/>
         <Footer/>
       </div>
       
