@@ -7,7 +7,7 @@ class Austin extends Component {
     state = {
         categories: [],
         categoriesCopy: [],
-        btns: ['All', 'Austin', 'Dallas', 'Houston']
+        btns: ['FOOD', 'DESSERT', 'FOOD', 'NIGHTLIFE']
       };
     
       async componentDidMount() {
