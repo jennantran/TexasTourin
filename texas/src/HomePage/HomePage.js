@@ -8,6 +8,7 @@ class HomePage extends Component{
            <div>
                <section className='homePage'>
                     <h1 className='texasTitle'>Texas Tourin</h1>
+                    <h2 className='texasMotto'>Taste. Discover. Enjoy Texas.</h2>
                </section>
                <PageBody></PageBody>
            </div>

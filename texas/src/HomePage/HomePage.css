@@ -20,8 +20,6 @@
     color: black;
     font-size: 40px; 
     font-weight: bold;
-    /* font-family: 'Libre Baskerville', serif; */
-    /* font-family: 'Lobster'; */
     font-family: 'Saira Stencil One', cursive;
     margin: 0 auto; /* Center the text container */
     padding: 10px;
@@ -34,6 +32,17 @@
     mix-blend-mode: screen; /* This makes the cutout text possible */
   }
 
+  .texasMotto{
+      color: white;
+      width: 50%;
+      margin-top: 175px; 
+      margin-left: 8vh;
+      font-family: 'Amatic SC', cursive;
+      font-size: 34px;
+      text-shadow: white 0px 0px 10px;
+      transform: rotate(-90deg);
+  }
+
 
   @media screen and (min-width: 600px) {
     .texasTitle {
@@ -41,8 +50,6 @@
         color: black;
         font-size: 50px; 
         font-weight: bold;
-        /* font-family: 'Libre Baskerville', serif; */
-        /* font-family: 'Lobster'; */
         font-family: 'Saira Stencil One', cursive;
         margin: 0 auto; /* Center the text container */
         padding: 20px;
