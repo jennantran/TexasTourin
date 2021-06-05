@@ -45,6 +45,15 @@ function Nav(){
           </li>
           <li className='nav-item'>
             <Link
+              to='/houston'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Houston
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
               to='/contact-us'
               className='nav-links'
               onClick={closeMobileMenu}
