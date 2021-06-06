@@ -1,0 +1,36 @@
+.contactPage{
+   background-color:grey;
+   height: 80vh;
+}
+
+.contact{
+   margin-left: auto;
+   margin-right: auto;
+   padding: 50px;
+}
+
+.btn-primary{
+   background-color:#49a97b;
+   color: white;
+   border-radius: 4px;
+   padding: 12px 10px;
+   cursor: pointer;
+   font-size: 15px;
+   margin-left: 50px; 
+}
+
+input[type=text], select, textarea {
+   width: 80%; /* Full width */
+   padding: 12px; /* Some padding */ 
+   border: 1px solid #ccc; /* Gray border */
+   border-radius: 4px; /* Rounded borders */
+   box-sizing: border-box; /* Make sure that padding and width stays in place */
+   margin-top: 50px; /* Add a top margin */
+   margin-bottom: 20px; /* Bottom margin */
+   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+ }
+
+
+.formControl{
+   width: 70%;
+ }

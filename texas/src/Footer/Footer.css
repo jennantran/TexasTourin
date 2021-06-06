@@ -50,9 +50,14 @@
 
   a:link{
     color:white;
-      background-color: transparent;
-  text-decoration: none;
+    background-color: transparent;
+    text-decoration: none;
   }
+
+  a{
+    color: white;
+  }
+  
 
   .copyright{
       font-size:x-small;

@@ -21,8 +21,8 @@ class Footer extends Component{
             >
                 Our Story
             </Link>
-          <br />
-          <br />
+          
+
           <Link
               to='/contact-us'
               className='contact'
